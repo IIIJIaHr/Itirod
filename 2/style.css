@@ -1,0 +1,94 @@
+body{
+	background: url('resources/bg.png');
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: red; /* Цвет ссылки */
+} 
+
+.img{
+	display: inline-block;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	margin-left: 35%;
+}
+
+.img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.img img{
+	height: auto;
+}
+
+table{
+	width: 70%;
+	margin: auto;
+}
+
+.header{
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+
+.description{	
+	font-family: Georgia, Times, serif;
+	font-size: 18px;
+}
+
+.back-form{
+	color: black;
+	background: #f8f8f8;
+	border: 1px solid #E1E1E8;
+	border-radius: 3px;
+	width: 70%;
+	margin: auto;	
+	font-family: Helvetica, serif;
+}
+
+ol{
+	counter-reset: myCounter;
+}
+
+li{
+	width: 80%;
+	list-style: none;
+	margin-left: 5%;
+	transition: margin-left 2s;
+}
+
+.num li:hover{
+	margin-left: 15%;
+}
+
+.num li:before {
+	counter-increment: myCounter;
+	content:counter(myCounter);
+	color: white;
+	background: #2980B9;
+	display: inline-block;
+	text-align: center;
+	margin: 5px 10px;
+	line-height: 40px;
+	width: 40px;
+	height: 40px;
+}
+
+.schedule li{
+	display: inline-block;
+}
+
+.slow-hide{
+	transition: background-color 3s;
+}
+
+.slow-hide:hover{
+	background-color:#880045;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../sassproject/stylesheets/lab3grid.css">
+    <meta charset="UTF-8">
+    <title>4.3</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="grid_12 banner">
+            <img class="banner" src="../source/img/google.png" alt="Google">
+        </div>
+    </div>
+    <div class="row">
+        <div class="grid_8 offset_2 main">
+            <h2>Анкета</h2>
+            <video controls width="720" height="480">
+                <source src="../source/video/google.mp4" type="video/mp4" />
+                <source src="../source/video/google.3gp" type="video/3gp" />
+                <source src="../source/video/google.webm" type="video/webm" /> Video cannot be displayed
+            </video>
+            <div class="grid_6 offset_3 form">
+                <form action="">
+                <div class="form-field">
+                    <input type="file" accept="image/*">
+                </div>
+                <div class="form-field">
+                    <label for="">Телефон:</label>
+                    <input type="tel" name="phoneNumber">
+                </div>
+                <div class="form-field">
+                    <label for="">Почта:</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="form-field">
+                    <label for="">вуз:</label>
+                    <input type="text" name="university">
+                </div>
+                <div class="form-field">
+                    <label for="">Специальность:</label>
+                    <input type="text" name="specialty">
+                </div>
+                <div class="form-field">
+                    <label for="">Вид практики:</label>
+                    <label>
+                        <input type="radio" name="typePractise" value="type1" checked> Производственная
+                    </label>
+                    <label>
+                        <input type="radio" name="typePractise" value="type2"> Преддипломная
+                    </label>
+                </div>
+                <div class="form-field">
+                    <label for="">Начало практики:</label>
+                    <input type="date" name="startPractise">
+                </div>
+                <label for="">Окончание практики:</label>
+                <input type="date" name="finishedPractise">
+                <div class="form-field">
+                    <label for="">Желаемое время присутствия в офисе:</label>
+                    <input type="text" name="timeInOffic">
+                </div>
+                <br>
+                <div class="knowledge">
+                    <div class="form-field">
+                    <select name="language1" id="">
+                        <option value="c#">C#</option>
+                        <option value="html">HTML</option>
+                        <option value="ruby">Ruby</option>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                        <option value="c++">C++</option>
+                    </select>
+                    <select name="skill1">
+                        <option value="good">Отлично</option>
+                        <option value="well">Хорошо</option>
+                        <option value="bad">Плохо</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <select name="language1" id="">
+                        <option value="c#">C#</option>
+                        <option value="html">HTML</option>
+                        <option value="ruby">Ruby</option>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                        <option value="c++">C++</option>
+                    </select>
+                    <select name="skill1">
+                        <option value="good">Отлично</option>
+                        <option value="well">Хорошо</option>
+                        <option value="bad">Плохо</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <select name="language1" id="">
+                        <option value="c#">C#</option>
+                        <option value="html">HTML</option>
+                        <option value="ruby">Ruby</option>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                        <option value="c++">C++</option>
+                    </select>
+                    <select name="skill1">
+                        <option value="good">Отлично</option>
+                        <option value="well">Хорошо</option>
+                        <option value="bad">Плохо</option>
+                    </select>
+                </div>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div class="row footer">
+    &copy;Google
+    </div>
+</body>
+
+</html>

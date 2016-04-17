@@ -1,0 +1,27 @@
+/* line 1, ../sass/lab11.sass */
+.key {
+  background-color: #354;
+  display: inline-block;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  margin: 2px;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 12, ../sass/lab11.sass */
+.keys {
+  width: 500px;
+  margin: 50px auto;
+}
+
+/* line 16, ../sass/lab11.sass */
+input {
+  margin: 50px;
+  font-size: 2em;
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}

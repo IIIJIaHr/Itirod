@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Carter+One);
+/* line 4, ../sass/_grid.sass */
+.grid, .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+  display: inline;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+/* line 10, ../sass/_grid.sass */
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* line 15, ../sass/_grid.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_1 {
+  width: 7.33333%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_1 {
+  margin-left: 8.33333%;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_2 {
+  width: 15.66667%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_2 {
+  margin-left: 16.66667%;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_3 {
+  width: 24%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_3 {
+  margin-left: 25%;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_4 {
+  width: 32.33333%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_4 {
+  margin-left: 33.33333%;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_5 {
+  width: 40.66667%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_5 {
+  margin-left: 41.66667%;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_6 {
+  width: 49%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_6 {
+  margin-left: 50%;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_7 {
+  width: 57.33333%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_7 {
+  margin-left: 58.33333%;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_8 {
+  width: 65.66667%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_8 {
+  margin-left: 66.66667%;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_9 {
+  width: 74%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_9 {
+  margin-left: 75%;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_10 {
+  width: 82.33333%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_10 {
+  margin-left: 83.33333%;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_11 {
+  width: 90.66667%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_11 {
+  margin-left: 91.66667%;
+}
+
+/* line 19, ../sass/_grid.sass */
+.grid_12 {
+  width: 99%;
+}
+
+/* line 24, ../sass/_grid.sass */
+.offset_12 {
+  margin-left: 100%;
+}
+
+/* line 9, ../sass/lab3grid.sass */
+body, select, input, input[type="file"], input[type="date"] {
+  font-family: "Comfortaa", Serif;
+}
+
+/* line 12, ../sass/lab3grid.sass */
+input {
+  font-size: 1.1em;
+  line-height: 30px;
+}
+
+/* line 16, ../sass/lab3grid.sass */
+video {
+  margin: 0 auto;
+  width: 720px;
+  display: block;
+}
+
+/* line 21, ../sass/lab3grid.sass */
+.knowledge {
+  text-align: center;
+}
+
+/* line 24, ../sass/lab3grid.sass */
+.form {
+  margin-top: 30px;
+}
+
+/* line 27, ../sass/lab3grid.sass */
+.form input[type="text"], input[type="date"], input[type="email"], input[type="tel"] {
+  width: 100%;
+  border-radius: 5px;
+  border: solid 1px #5AF;
+}
+
+/* line 36, ../sass/lab3grid.sass */
+.form input[type="text"]:focus, input[type="date"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
+  border: solid 2px #5AF;
+  outline: none;
+}
+
+/* line 40, ../sass/lab3grid.sass */
+.banner, .footer {
+  text-align: center;
+}
+
+/* line 43, ../sass/lab3grid.sass */
+.main > h2 {
+  text-align: center;
+}
+
+/* line 46, ../sass/lab3grid.sass */
+.form-field {
+  margin: 10px 0;
+}
+
+/* line 49, ../sass/lab3grid.sass */
+.form-field > label {
+  margin-bottom: 5px;
+}
+
+/* line 52, ../sass/lab3grid.sass */
+.form-field > input, label {
+  display: block;
+}

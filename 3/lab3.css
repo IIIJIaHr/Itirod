@@ -1,0 +1,24 @@
+body {
+    /*width: 1000px;*/
+}
+
+tr.footer {
+    text-align: center;
+}
+
+td.banner {
+    text-align: center;
+}
+
+div.form-field {
+    margin: 10px 0;
+}
+
+div.form-field > input {
+    margin-top: 5px;
+}
+
+div.form-field > input, label {
+    display: block;
+    padding: 0;
+}

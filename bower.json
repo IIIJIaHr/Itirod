@@ -1,0 +1,21 @@
+{
+  "name": "itirod",
+  "description": "",
+  "main": "Gruntfile.js",
+  "authors": [
+    "IIIJIaHr <midav.lis@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}

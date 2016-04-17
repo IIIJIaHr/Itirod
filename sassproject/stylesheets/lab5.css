@@ -1,0 +1,217 @@
+/* line 5, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../sass/lab5.sass */
+html, body, div {
+  height: 100%;
+}
+
+/* line 17, ../sass/lab5.sass */
+.container {
+  -moz-perspective: 800px;
+  -webkit-perspective: 800px;
+  perspective: 800px;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+}
+
+/* line 27, ../sass/lab5.sass */
+figure {
+  opacity: 0.7;
+  text-align: center;
+  font-size: 300px;
+  color: #AFAFAF;
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: #55ff77;
+}
+
+/* line 40, ../sass/lab5.sass */
+.side1 {
+  -moz-transform:  translateZ(0px);
+  -ms-transform:  translateZ(0px);
+  -webkit-transform:  translateZ(0px);
+  transform:  translateZ(0px);
+}
+
+/* line 43, ../sass/lab5.sass */
+.side2 {
+  top: 100%;
+  left: 0;
+  -moz-transform:  rotateX(-90deg) translateZ(0px);
+  -ms-transform:  rotateX(-90deg) translateZ(0px);
+  -webkit-transform:  rotateX(-90deg) translateZ(0px);
+  transform:  rotateX(-90deg) translateZ(0px);
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+/* line 49, ../sass/lab5.sass */
+.side3 {
+  top: 0;
+  right: 100%;
+  -moz-transform:  rotateY(-90deg) translateZ(0px);
+  -ms-transform:  rotateY(-90deg) translateZ(0px);
+  -webkit-transform:  rotateY(-90deg) translateZ(0px);
+  transform:  rotateY(-90deg) translateZ(0px);
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+
+/* line 55, ../sass/lab5.sass */
+.side4 {
+  bottom: 100%;
+  left: 0;
+  -moz-transform:  rotateX(90deg) translateZ(0px);
+  -ms-transform:  rotateX(90deg) translateZ(0px);
+  -webkit-transform:  rotateX(90deg) translateZ(0px);
+  transform:  rotateX(90deg) translateZ(0px);
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+/* line 61, ../sass/lab5.sass */
+.side5 {
+  top: 0;
+  left: 100%;
+  -moz-transform:  rotateY(90deg) translateZ(0px);
+  -ms-transform:  rotateY(90deg) translateZ(0px);
+  -webkit-transform:  rotateY(90deg) translateZ(0px);
+  transform:  rotateY(90deg) translateZ(0px);
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+/* line 67, ../sass/lab5.sass */
+.side6 {
+  -moz-transform:  rotateY(180deg) translateZ(300px);
+  -ms-transform:  rotateY(180deg) translateZ(300px);
+  -webkit-transform:  rotateY(180deg) translateZ(300px);
+  transform:  rotateY(180deg) translateZ(300px);
+}
+
+@-moz-keyframes rotate {
+  0% {
+    -moz-transform: rotate3d(0, 0, 0, 0);
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  100% {
+    -moz-transform: rotate3d(0, 1, 0, 360deg);
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 0, 0);
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 1, 0, 360deg);
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    -moz-transform: rotate3d(0, 0, 0, 0);
+    -webkit-transform: rotate3d(0, 0, 0, 0);
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  100% {
+    -moz-transform: rotate3d(0, 1, 0, 360deg);
+    -webkit-transform: rotate3d(0, 1, 0, 360deg);
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+/* line 80, ../sass/lab5.sass */
+.card {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}

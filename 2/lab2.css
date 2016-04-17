@@ -1,0 +1,12 @@
+body{
+	font-size: 12pt;
+	font-family: sans-serif;
+}
+
+tr.header>td {
+	text-align: center;
+}
+
+dl>dd {
+	font-style: italic;
+}
